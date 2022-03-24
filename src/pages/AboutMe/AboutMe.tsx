@@ -7,23 +7,9 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import picture from "../../assets/react-JS-image-min.jpg"
+import {Path} from "../../App";
 import {NavLink} from "react-router-dom";
-import picture from "../../../assets/01_Server-Side-Scripting.png"
-import {Path} from "../Routes/Routes";
-import CheckIcon from '@material-ui/icons/Check';
-
-
-const firstSkillsBlock: string[] = [
-    'Duis aute irure dolor Nisl nisi scelerisque eu ultrices',
-    'Nunc eget maximus orci. Sed gravida, ex a aliquam',
-    'Aliquam facilisis est eu ante placerat iaculis  finibus',
-]
-
-const secondSkillsBlock: string[] = [
-    'Curabitur egestas mire vitae neque tristique sodales',
-    'Aute irure dolor nisl duis nisi scelerisque eu ultrices',
-    'Nisl nisi scelerisque eu ultrices Duis aute irure dolor',
-]
 
 const useStyles = makeStyles({
   root: {
@@ -35,15 +21,20 @@ const useStyles = makeStyles({
   },
 });
 
-export const Skills = () => {
+const profileDescription: string =
+    `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+
+
+export const AboutMe = () => {
   const classes = useStyles();
   return (
       <Card className={classes.root}>
 
         <Typography gutterBottom variant="h5" component="h2" align={"center"}>
-            Skills
+          About Me
         </Typography>
-
         {/*<CardActionArea>*/}
         <div >
           <CardMedia
@@ -56,22 +47,17 @@ export const Skills = () => {
         </div>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Stack of technologies
+            React developer
           </Typography>
-            <div style={{display: "flex", flexDirection: 'row', justifyContent: 'space-between'}}>
-                <Typography variant="body2" color="textSecondary" component="p">
-                    {firstSkillsBlock.map(skill => <p> <CheckIcon style={{fontSize: '14px', color: '#62309d'}}/> {skill}</p>)}
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                    {secondSkillsBlock.map(skill => <p> <CheckIcon style={{fontSize: '14px', color: '#62309d'}}/> {skill}</p>)}
-                </Typography>
-            </div>
+          <Typography variant="body2" color="textSecondary" component="p">
+              {profileDescription}
+          </Typography>
         </CardContent>
         {/*</CardActionArea>*/}
         <CardActions>
           <Button size="small" color="primary">
-            <NavLink to={Path.AboutMe} >
-              About Me
+            <NavLink to={Path.Skills} >
+              Skills
             </NavLink>
           </Button>
           <Button size="small" color="primary">

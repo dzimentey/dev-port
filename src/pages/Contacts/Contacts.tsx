@@ -7,13 +7,13 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import {NavLink} from "react-router-dom";
-import {Path} from "../Routes/Routes";
-import picture from "../../../assets/react-inTouch.jpg"
+import picture from "../../assets/react-inTouch.jpg"
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 import PermPhoneMsgOutlinedIcon from '@material-ui/icons/PermPhoneMsgOutlined';
 import MailOutlineOutlinedIcon from '@material-ui/icons/MailOutlineOutlined';
 import {Divider} from "@material-ui/core";
+import {Path} from "../../App";
+import {NavLink} from "react-router-dom";
 
 const useStyles = makeStyles({
   root: {
