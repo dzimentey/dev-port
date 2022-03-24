@@ -20,6 +20,7 @@ export const App = () => {
             <Header/>
             <Routes>
                 <Route path={'/'} element={<AboutMe/>} />
+                <Route path={'/dev-port'} element={<AboutMe/>} />
                 <Route path={Path.AboutMe} element={<AboutMe/>} />
                 <Route path={Path.Skills} element={<Skills/>} />
                 <Route path={Path.Contacts} element={<Contacts/>} />
