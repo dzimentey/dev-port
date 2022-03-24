@@ -22,6 +22,13 @@ const useStyles = makeStyles({
   },
 });
 
+
+const profileDescription: string =
+    `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+
+
 export const AboutMe = () => {
   const classes = useStyles();
   return (
@@ -46,9 +53,7 @@ export const AboutMe = () => {
             React developer
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              {profileDescription}
           </Typography>
         </CardContent>
         {/*</CardActionArea>*/}
