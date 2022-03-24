@@ -8,7 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import {NavLink} from "react-router-dom";
-import picture from "../common/assets/img/01_Server-Side-Scripting.png"
+import picture from "../../../assets/01_Server-Side-Scripting.png"
 import {Path} from "../Routes/Routes";
 import CheckIcon from '@material-ui/icons/Check';
 

@@ -7,8 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
-import picture from "../common/assets/img/react-JS-image-min.jpg"
+import picture from "../../../assets/react-JS-image-min.jpg"
 import {Path} from "../Routes/Routes";
 import {NavLink} from "react-router-dom";
 
@@ -21,7 +20,6 @@ const useStyles = makeStyles({
     marginTop: 20
   },
 });
-
 
 const profileDescription: string =
     `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -37,7 +35,6 @@ export const AboutMe = () => {
         <Typography gutterBottom variant="h5" component="h2" align={"center"}>
           About Me
         </Typography>
-
         {/*<CardActionArea>*/}
         <div >
           <CardMedia

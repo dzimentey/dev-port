@@ -9,7 +9,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import {NavLink} from "react-router-dom";
 import {Path} from "../Routes/Routes";
-import picture from "../common/assets/img/react-inTouch.jpg"
+import picture from "../../../assets/react-inTouch.jpg"
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 import PermPhoneMsgOutlinedIcon from '@material-ui/icons/PermPhoneMsgOutlined';
 import MailOutlineOutlinedIcon from '@material-ui/icons/MailOutlineOutlined';
@@ -24,6 +24,11 @@ const useStyles = makeStyles({
     marginTop: 20
   },
 });
+
+const addressIntro: string = `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+const address: string = `415 Summer St, Boston, MA`
+const phone: string = `+1 617-000-0000`
+const mail: string = `123React@gmail.com`
 
 export const Contacts = () => {
   const classes = useStyles();
@@ -49,20 +54,19 @@ export const Contacts = () => {
               Get in touch with me
           </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                {addressIntro}
             </Typography>
 
             <div style={{display: 'flex', justifyContent: 'space-between', marginTop: '15px'}}>
                 <Typography variant="body2" color="textPrimary" component="p">
-                    <LocationOnOutlinedIcon fontSize={"small"} style={{color: '#62309d'}}/> 415 Summer St, Boston, MA
+                    <LocationOnOutlinedIcon fontSize={"small"} style={{color: '#62309d'}}/> {address}
                 </Typography>
                 <Typography variant="body2" color="textPrimary" component="p">
-                    <PermPhoneMsgOutlinedIcon fontSize={"small"} style={{color: '#62309d'}}/> +1 617-000-0000
+                    <PermPhoneMsgOutlinedIcon fontSize={"small"} style={{color: '#62309d'}}/> {phone}
                 </Typography>
                 <Typography variant="body2" color="textPrimary" component="p">
-                    <MailOutlineOutlinedIcon fontSize={"small"} style={{color: '#62309d'}}/> 123React@gmail.com
+                    <MailOutlineOutlinedIcon fontSize={"small"} style={{color: '#62309d'}}/> {mail}
                 </Typography>
-
             </div>
             <Divider />
         </CardContent>
