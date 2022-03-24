@@ -12,6 +12,19 @@ import picture from "../common/assets/img/01_Server-Side-Scripting.png"
 import {Path} from "../Routes/Routes";
 import CheckIcon from '@material-ui/icons/Check';
 
+
+const firstSkillsBlock: string[] = [
+    'Duis aute irure dolor Nisl nisi scelerisque eu ultrices',
+    'Nunc eget maximus orci. Sed gravida, ex a aliquam',
+    'Aliquam facilisis est eu ante placerat iaculis  finibus',
+]
+
+const secondSkillsBlock: string[] = [
+    'Curabitur egestas mire vitae neque tristique sodales',
+    'Aute irure dolor nisl duis nisi scelerisque eu ultrices',
+    'Nisl nisi scelerisque eu ultrices Duis aute irure dolor',
+]
+
 const useStyles = makeStyles({
   root: {
     display: 'flex',
@@ -47,14 +60,10 @@ export const Skills = () => {
           </Typography>
             <div style={{display: "flex", flexDirection: 'row', justifyContent: 'space-between'}}>
                 <Typography variant="body2" color="textSecondary" component="p">
-                    <p><CheckIcon style={{fontSize: '14px', color: '#62309d'}}/> Duis aute irure dolor Nisl nisi scelerisque eu ultrices</p>
-                    <p><CheckIcon style={{fontSize: '14px', color: '#62309d'}}/> Duis aute irure dolor Nisl nisi scelerisque eu ultrices</p>
-                    <p><CheckIcon style={{fontSize: '14px', color: '#62309d'}}/> Duis aute irure dolor Nisl nisi scelerisque eu ultrices</p>
-                    </Typography>
+                    {firstSkillsBlock.map(skill => <p> <CheckIcon style={{fontSize: '14px', color: '#62309d'}}/> {skill}</p>)}
+                </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                    <p><CheckIcon style={{fontSize: '14px', color: '#62309d'}}/> Duis aute irure dolor Nisl nisi scelerisque eu ultrices</p>
-                    <p><CheckIcon style={{fontSize: '14px', color: '#62309d'}}/> Duis aute irure dolor Nisl nisi scelerisque eu ultrices</p>
-                    <p><CheckIcon style={{fontSize: '14px', color: '#62309d'}}/> Duis aute irure dolor Nisl nisi scelerisque eu ultrices</p>
+                    {secondSkillsBlock.map(skill => <p> <CheckIcon style={{fontSize: '14px', color: '#62309d'}}/> {skill}</p>)}
                 </Typography>
             </div>
         </CardContent>
