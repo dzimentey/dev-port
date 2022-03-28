@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/dev-port/static/css/main.c4e24118.chunk.css",
-    "main.js": "/dev-port/static/js/main.79ffd247.chunk.js",
-    "main.js.map": "/dev-port/static/js/main.79ffd247.chunk.js.map",
-    "runtime-main.js": "/dev-port/static/js/runtime-main.a536730c.js",
-    "runtime-main.js.map": "/dev-port/static/js/runtime-main.a536730c.js.map",
-    "static/js/2.777d47d4.chunk.js": "/dev-port/static/js/2.777d47d4.chunk.js",
-    "static/js/2.777d47d4.chunk.js.map": "/dev-port/static/js/2.777d47d4.chunk.js.map",
-    "static/js/3.a90439ed.chunk.js": "/dev-port/static/js/3.a90439ed.chunk.js",
-    "static/js/3.a90439ed.chunk.js.map": "/dev-port/static/js/3.a90439ed.chunk.js.map",
+    "main.css": "/dev-port/static/css/main.c8f201bd.chunk.css",
+    "main.js": "/dev-port/static/js/main.8633007a.chunk.js",
+    "main.js.map": "/dev-port/static/js/main.8633007a.chunk.js.map",
+    "runtime-main.js": "/dev-port/static/js/runtime-main.a550cf57.js",
+    "runtime-main.js.map": "/dev-port/static/js/runtime-main.a550cf57.js.map",
+    "static/js/2.9de7d0de.chunk.js": "/dev-port/static/js/2.9de7d0de.chunk.js",
+    "static/js/2.9de7d0de.chunk.js.map": "/dev-port/static/js/2.9de7d0de.chunk.js.map",
+    "static/js/3.e0ca2627.chunk.js": "/dev-port/static/js/3.e0ca2627.chunk.js",
+    "static/js/3.e0ca2627.chunk.js.map": "/dev-port/static/js/3.e0ca2627.chunk.js.map",
     "index.html": "/dev-port/index.html",
-    "static/css/main.c4e24118.chunk.css.map": "/dev-port/static/css/main.c4e24118.chunk.css.map",
-    "static/js/2.777d47d4.chunk.js.LICENSE.txt": "/dev-port/static/js/2.777d47d4.chunk.js.LICENSE.txt",
+    "static/css/main.c8f201bd.chunk.css.map": "/dev-port/static/css/main.c8f201bd.chunk.css.map",
+    "static/js/2.9de7d0de.chunk.js.LICENSE.txt": "/dev-port/static/js/2.9de7d0de.chunk.js.LICENSE.txt",
     "static/media/01_Server-Side-Scripting.9f5d58e5.png": "/dev-port/static/media/01_Server-Side-Scripting.9f5d58e5.png",
     "static/media/react-JS-image-min.bec8e169.jpg": "/dev-port/static/media/react-JS-image-min.bec8e169.jpg",
     "static/media/react-inTouch.418dc8a4.jpg": "/dev-port/static/media/react-inTouch.418dc8a4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a536730c.js",
-    "static/js/2.777d47d4.chunk.js",
-    "static/css/main.c4e24118.chunk.css",
-    "static/js/main.79ffd247.chunk.js"
+    "static/js/runtime-main.a550cf57.js",
+    "static/js/2.9de7d0de.chunk.js",
+    "static/css/main.c8f201bd.chunk.css",
+    "static/js/main.8633007a.chunk.js"
   ]
 }
